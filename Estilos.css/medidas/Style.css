@@ -14,7 +14,8 @@
 .text-container div {
     font-size: 2em;
 }*/
-* {
+
+/** {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -27,4 +28,25 @@ p {
 }
 main div {
     font-size: 1.8rem;
+}*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    background-color: aqua;
+}
+
+section {
+    width: 80%;
+    min-width: 320px;
+    max-width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    background-color: red;
 }
