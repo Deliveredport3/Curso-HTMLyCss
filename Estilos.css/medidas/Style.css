@@ -8,9 +8,23 @@
     font-size: 16px;
 }*/
 
-.text-container {
+/*.text-container {
     font-size: 1em;
 }
 .text-container div {
     font-size: 2em;
+}*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+}
+p {
+    font-size: 1.6rem;
+}
+main div {
+    font-size: 1.8rem;
 }
