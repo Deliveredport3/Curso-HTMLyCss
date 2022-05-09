@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.8rem;
+}
+
+li {
+    list-style: none;
+}
+.zone-up {
+    height: 10vh;
+    background-color: coral;
+}
+.zone-top-right {
+    justify-content: flex-end right;
+}
+.nav-bottoms {
+    justify-content: flex-end;
+}
+.main-content {
+    height: 80vh;
+}
+footer {
+    height: 10vh;
+    background-color: darksalmon;
+}
+
+.footer-blog {
+    display: inline-block;
+    margin: 1rem;
+}
+.footer-settings {
+    position: absolute;
+    right: 1.5rem;
+}
