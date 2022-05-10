@@ -11,7 +11,27 @@ html {
 body {
     font-size: 1.6rem;
 }
-.Head-doc {
+.Text-doc {
+    font-size: 2rem;
     background-color: aqua;
-    align-content: flex-end;
+    font-weight: 100;
+    font-style: italic;
+    text-align: center;
+}
+.parrafo {
+    text-transform: initial;
+    
+}
+.main-text {
+    display: inline-block;    
+    width: 100%;
+}
+.main-nav {
+    font-size: 2.5rem;
+    width: 30%;
+    margin: 0 auto;
+    font-weight: 300;
+    position: absolute;
+    text-decoration: none;
+    background-color: burlywood;
 }
