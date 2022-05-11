@@ -8,30 +8,37 @@
 html {
     font-size: 62.5%;
 }
+
 body {
-    font-size: 1.6rem;
-}
-.Text-doc {
-    font-size: 2rem;
-    background-color: aqua;
-    font-weight: 100;
-    font-style: italic;
-    text-align: center;
-}
-.parrafo {
-    text-transform: initial;
-    
-}
-.main-text {
-    display: inline-block;    
-    width: 100%;
+    font-size:  1.6rem;
 }
 .main-nav {
-    font-size: 2.5rem;
-    width: 30%;
-    margin: 0 auto;
-    font-weight: 300;
-    position: absolute;
+    list-style: none;
+    background-color: aqua;
+    padding: 1.5rem;
+    text-align: center;
+    
+}
+.main-nav__item {
+    display: inline-block;
+    background-color: greenyellow;
+    border-radius: 0.2rem;
+    
+}
+.main-nav__item a {
     text-decoration: none;
-    background-color: burlywood;
+}
+.main-nav__item a:hover {
+    background-color: orange;
+}
+.main-nav__item a:active {
+    background-color: red;
+}
+.body-nav {
+    background-color: steelblue;
+    text-align: center;
+}
+.body-nav__head {
+    flex-wrap: wrap-reverse;
+    background-color: darkgreen;
 }
