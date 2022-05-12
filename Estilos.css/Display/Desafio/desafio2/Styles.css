@@ -45,3 +45,24 @@ body {
 .main-nav__items a:active {
     background-color: black;
 }
+.main-body {
+    width: 100%;
+    height: 100rem;
+    padding: 2rem 3.5rem;
+    border: 5rem solid gray;
+}
+.main-titulo {
+    text-align: center;
+    background-color: red;
+}
+.main-parrafo {
+    margin-top: 2rem;
+   background-color: salmon;
+   display: inline-block;
+}
+.main-nav__text {
+    margin-top: 2rem;
+    background-color: chocolate;
+    display: inline-block;
+    text-align: center;
+}
