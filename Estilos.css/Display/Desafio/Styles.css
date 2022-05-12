@@ -39,6 +39,6 @@ body {
     text-align: center;
 }
 .body-nav__head {
-    flex-wrap: wrap-reverse;
+    
     background-color: darkgreen;
 }
