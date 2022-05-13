@@ -66,3 +66,44 @@ body {
     display: inline-block;
     text-align: center;
 }
+.main-nav__img {
+   margin-top: 2rem;
+   text-align: center;
+    
+}
+.footer-items {
+    background-color: burlywood;
+    text-align: center;
+    padding: 2rem;
+}
+.footer-list {
+    list-style: none;
+    background-color: cornflowerblue;
+    border-radius: 0.5rem;
+}
+.footer-list__one {
+    text-align: left;
+    display: block;
+}
+.footer-list__two {
+    text-align: right;
+    
+}
+.footer-list__one a {
+    text-decoration: none;
+}
+.footer-list__two a {
+    text-decoration: none;
+}
+.footer-list__one a:hover {
+    background-color: blue;
+}
+.footer-list__one a:active {
+    background-color: red;
+}
+.footer-list__two a:hover {
+    background-color: blue;
+}
+.footer-list__two a:active {
+    background-color: red;
+}
