@@ -64,12 +64,45 @@ body {
     height: 300px;
     border-radius: 0.5rem;
     position: static;
-    margin-left: 15rem;
+    margin-left: 16rem;
     margin-top: 6rem;
     text-align: justify;
     padding: 2.7rem;
     color: seagreen;
     font-size: 1.5rem;
+}
+.footer-page {
+    background-color: darkgray;
+    margin-top: 2rem;
+    text-align: center;
+   padding: 1rem;
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   width: 100%;
+}
+.footer-list {
+    display: inline-block;
+    background-color: teal;
+    border-radius: 0.5rem;
     
-    
+}
+.footer-list__items1 {
+    display: inline-block;
+    color: yellow;
+    margin-right: 0.7rem;
+    margin-left: 0.7rem;
+}
+.footer-list__items2 {
+    display: inline-block;
+    color: yellow;
+   margin-right: 0.7rem;
+}
+.footer-list__items3 {
+    display: inline-block;
+    color: yellow;
+    margin-right: 0.7rem;
+}
+.footer-list__items a {
+  
 }
