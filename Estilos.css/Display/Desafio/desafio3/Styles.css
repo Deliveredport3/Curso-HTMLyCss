@@ -14,32 +14,27 @@ body {
     background-color: aquamarine;
     padding-top: 0.7rem;
     padding-bottom: 0.7rem;
+    text-align: center;
 }
 .nav-list {
     display: inline-block;
     background-color: teal;
     border-radius: 0.5rem;
+    
 }
 .nav-list__item {
     display: inline-block;
-    text-align: left;
     color: yellow;
     margin-right: 0.7rem;
     margin-left: 0.7rem;
-    
 }
 .nav-list__item1 {
     display: inline-block;
-    text-align: center;
     color: yellow;
    margin-right: 0.7rem;
- 
 }
 .nav-list__item2 {
     display: inline-block;
-    text-align: right;
     color: yellow;
     margin-right: 0.7rem;
-    
-    
 }
